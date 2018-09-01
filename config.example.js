@@ -20,7 +20,8 @@ module.exports =  {
 		"password": ""
 	},
 	"modules": {
-		"meta": "./meta"
+		"meta": "./meta",
+		"ogs": "./ogs"
 	},
 	"feeds": [
 		{
@@ -35,9 +36,13 @@ module.exports =  {
 				"url": "link",
 				"message": def_message
 			},
+
+			// Module references:
 			"meta": {
 				"thumbnail": "image"
 			},
+			"ogs": {},
+
 			"exists": def_exists,
 			"save_state": def_save_state
 		}

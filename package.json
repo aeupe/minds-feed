@@ -4,6 +4,7 @@
   "main": "app.js",
   "scripts": {
     "dry": "node app.js -dry",
+	"clear-dry": "rm state/*; node app.js -dry",
     "start": "node app.js"
   },
   "author": "",
@@ -13,6 +14,7 @@
     "async": "^2.6.1",
     "md5": "^2.2.1",
     "metascraper": "^3.12.1",
+    "open-graph-scraper": "^3.5.1",
     "request": "^2.88.0",
     "rss-parser": "^3.4.3",
     "safename": "^1.0.2"
