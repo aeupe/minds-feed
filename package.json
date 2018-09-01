@@ -12,9 +12,9 @@
   "dependencies": {
     "async": "^2.6.1",
     "md5": "^2.2.1",
-    "metascraper": "^3.11.8",
+    "metascraper": "^3.12.1",
     "request": "^2.88.0",
-    "rss-parser": "^3.4.2",
+    "rss-parser": "^3.4.3",
     "safename": "^1.0.2"
   }
 }
