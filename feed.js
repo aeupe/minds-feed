@@ -43,7 +43,7 @@ module.exports = {
 						))
 					async.series(mod_tasks, ()=>{
 						callback(null, obj)
-					}
+					})
 				} else callback(null, obj)
 			}
 		})
