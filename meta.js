@@ -10,7 +10,7 @@ module.exports = {
 					const value = param[key]
         	        if ( typeof(value) == 'string' ) {
 						obj.obj[key] = res[value]
-					} else obj.obj[key] = value(param)
+					} else obj.obj[key] = value(res)
 				}
 				callback(null, obj)
 			})
