@@ -1,6 +1,5 @@
-
-const request = require('request')
-const jar = request.jar()
+const request = require('request'),
+	jar = request.jar()
 
 function getXSRF(){
 	const key = 'XSRF-TOKEN=',
