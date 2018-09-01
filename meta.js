@@ -8,7 +8,7 @@ module.exports = {
 			metascraper(opts).then(res => {
 				for ( key in param ) {
 					const value = param[key]
-        	        if ( typeof(value) == 'string' ) {
+					if ( typeof(value) == 'string' ) {
 						obj.obj[key] = res[value]
 					} else obj.obj[key] = value(res)
 				}
