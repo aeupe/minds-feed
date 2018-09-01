@@ -43,7 +43,7 @@ function run() {
 								article,
 								() => log(str.WRITTEN_TO(obj.task.name))
 							)
-						} else log(JSON.stringify(article))
+						} else log(JSON.stringify(article, null, 2))
 					})
 				})
 			} else log(str.UP_TO_DATE)
