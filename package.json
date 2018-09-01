@@ -1,0 +1,20 @@
+{
+  "name": "minds-feed",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dry": "node app.js -dry",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "async": "^2.6.1",
+    "md5": "^2.2.1",
+    "metascraper": "^3.11.8",
+    "request": "^2.88.0",
+    "rss-parser": "^3.4.2",
+    "safename": "^1.0.2"
+  }
+}
