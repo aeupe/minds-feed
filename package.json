@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "dry": "node app.js -dry",
-	"clear-dry": "rm state/*; node app.js -dry",
+    "clear-dry": "rm state/*; node app.js -dry",
     "start": "node app.js"
   },
   "author": "",
