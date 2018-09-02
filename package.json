@@ -7,7 +7,7 @@
     "clear-dry": "rm state/*; node app.js -dry",
     "start": "node app.js"
   },
-  "author": "",
+  "author": "aeupe",
   "license": "MIT",
   "description": "",
   "dependencies": {
