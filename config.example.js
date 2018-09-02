@@ -30,6 +30,9 @@ module.exports =  {
 			"container": "569573984593522688",
 				// https://www.minds.com/groups/profile/569573984593522688
 			"id": def_id,
+			"const": {
+				"mature": 0
+			},
 			"map": {
 				"title": "title",
 				"description": "content",
