@@ -1,4 +1,4 @@
-const safename = require('safename')
+const safename = require('safename'),
 	def_message = item => {
 		let msg = ''
 		if ( item.categories ) {
