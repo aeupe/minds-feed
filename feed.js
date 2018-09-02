@@ -29,6 +29,9 @@ module.exports = {
 						task.save_state(state, id)
 					)
 					obj.obj = {}
+					for ( key in task.const ) {
+						obj.obj[key] = task.const[key]
+					}
 					for ( key in task.map ) {
 						const value = task.map[key]
 						if ( typeof(value) == 'string' ) {

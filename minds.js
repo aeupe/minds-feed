@@ -33,17 +33,24 @@ module.exports = {
 			jar: jar
 		}, callback)
 	},
-	article: (container, obj) => ({
-		access_id: 2,
-		attachment_guid: null,
-		container_guid: container,
-		description: obj.description,
-		is_rich: 0,
-		mature: 0,
-		message: obj.message,
-		thumbnail: obj.thumbnail,
-		title: obj.title,
-		url: obj.url,
-		wire_threshold: null
-	})
+	article: (container, obj) => {
+		let def = {
+			access_id: 2,
+			attachment_guid: null,
+			container_guid: container,
+			description: null,
+			is_rich: 0,
+			mature: 0,
+			message: null,
+			thumbnail: null,
+			title: null,
+			url: null,
+			wire_threshold: null
+		}
+		for( key in obj ) {
+			def[key] = obj[key]
+		}
+		return def
+	}
+
 }
