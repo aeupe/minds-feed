@@ -34,7 +34,7 @@ module.exports =  {
 		"title": null,
 		"url": null,
 		"wire_threshold": null
-    },
+	},
 	"feeds": [
 		{
 			"name": "BBC News - US & Canada",
