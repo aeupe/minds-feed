@@ -1,4 +1,5 @@
-const request = require('request'),
+const config = require('./config'),
+	request = require('request'),
 	jar = request.jar()
 
 function getXSRF(){
@@ -33,24 +34,7 @@ module.exports = {
 			jar: jar
 		}, callback)
 	},
-	article: (container, obj) => {
-		let def = {
-			access_id: 2,
-			attachment_guid: null,
-			container_guid: container,
-			description: null,
-			is_rich: 0,
-			mature: 0,
-			message: null,
-			thumbnail: null,
-			title: null,
-			url: null,
-			wire_threshold: null
-		}
-		for( key in obj ) {
-			def[key] = obj[key]
-		}
-		return def
-	}
-
+	article: (container, obj) => Object.assign(
+		{"container_guid": container}, config.def_article, obj
+	)
 }

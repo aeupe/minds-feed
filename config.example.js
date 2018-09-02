@@ -23,6 +23,18 @@ module.exports =  {
 		"meta": "./meta",
 		"ogs": "./ogs"
 	},
+	"def_article": {
+		"access_id": 2,
+		"attachment_guid": null,
+		"description": null,
+		"is_rich": 0,
+		"mature": 0,
+		"message": null,
+		"thumbnail": null,
+		"title": null,
+		"url": null,
+		"wire_threshold": null
+    },
 	"feeds": [
 		{
 			"name": "BBC News - US & Canada",
