@@ -1,4 +1,5 @@
 const safename = require('safename'),
+	cheerio = require('cheerio'),
 	def_message = item => {
 		let msg = ''
 		if ( item.categories ) {
