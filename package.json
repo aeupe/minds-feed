@@ -11,7 +11,7 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "cheerio": "^1.0.0-rc.2",
     "md5": "^2.2.1",
     "metascraper": "^3.12.1",
